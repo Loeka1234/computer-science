@@ -74,28 +74,32 @@ Creating **table**:
 
 Whole numbers
 
+| Type     | Info        |
+|:--------:|:-----------:|
 | TINYINT  | -256 to 255 |
-| -------- |:-----------:|
 | SMALLINT | 3.2768      |
 | INTEGER  |             |
 
 Not whole numbers
 
-| DECIMAL          | e.g. `DECIMAL(12, 4)`: number with 8 digits before the decimal and 4 digits after the decimal |
+| Type             | Info                                                                                          |
 |:----------------:|:---------------------------------------------------------------------------------------------:|
+| DECIMAL          | e.g. `DECIMAL(12, 4)`: number with 8 digits before the decimal and 4 digits after the decimal |
 | DOUBLE PRECISION | Numbers with a floating point (REAL = often used synonym)                                     |
 | FLOAT            | Floating point numbers with a specified precision                                             |
 
 Alphanumeric values
 
+| Type          | Info                               |
+|:-------------:|:----------------------------------:|
 | CHAR(size)    | Fixed length, max length: 255      |
-| ------------- | ---------------------------------- |
 | VARCHAR(size) | Variable length, max length: 65535 |
 
 Date Times
 
+| Type     | Info                                 |
+|:--------:|:------------------------------------:|
 | DATE     | Date:  year, month, day              |
-| -------- | ------------------------------------ |
 | TIME     | Time of day: hours, minutes, seconds |
 | TIMETAMP | Date + Time of day                   |
 
