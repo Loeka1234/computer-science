@@ -98,4 +98,34 @@ WHERE playernr in (
 ORDER BY name;
 ```
 
+### GROUP BY
+
+The `GROUP BY` statement groups rows that have the same values into summary rows, like "find the number of customers in each country"
+
+```sql
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+```
+
+### HAVING
+
+The `HAVING` clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+
+```sql
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+```
+
+### ORDER BY
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country;
+```
+
 
