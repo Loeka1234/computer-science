@@ -38,13 +38,14 @@ SELECT DISTINCT Country FROM Customers;
 
 Comparison operators:
 
-| =   | Equal                    |
-|:---:|:------------------------:|
-| >   | Greater than             |
-| <   | Less than                |
-| >=  | Greater than or equal to |
-| <=  | Less than or equal to    |
-| <>  | Not equal to             |
+| Operator |                          |
+|:--------:|:------------------------:|
+| =        | Equal                    |
+| >        | Greater than             |
+| <        | Less than                |
+| >=       | Greater than or equal to |
+| <=       | Less than or equal to    |
+| <>       | Not equal to             |
 
 Other operators: 
 
@@ -127,5 +128,3 @@ The ORDER BY keyword is used to sort the result-set in ascending or descending o
 SELECT * FROM Customers
 ORDER BY Country;
 ```
-
-
