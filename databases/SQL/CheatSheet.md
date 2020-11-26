@@ -88,7 +88,7 @@ Other operators: `AND`, `OR`, `NOT`, `BETWEEN`, `IN`
 
 - `IS NULL`
 
-Subquery:
+### WHERE: subquery
 
 ```sql
 SELECT name FROM players
