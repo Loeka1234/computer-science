@@ -46,7 +46,7 @@ Comparison operators:
 | <=  | Less than or equal to    |
 | <>  | Not equal to             |
 
-Other operators: `AND`, `OR`, `NOT`, `BETWEEN`, `IN`
+Other operators: 
 
 - `AND`
 
