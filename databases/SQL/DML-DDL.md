@@ -74,11 +74,11 @@ Creating **table**:
 
 Whole numbers
 
-| Type     | Info        |
-|:--------:|:-----------:|
-| TINYINT  |  0 to 255   |
-| SMALLINT | 3.2768      |
-| INTEGER  |             |
+| Type     | Info            |
+|:--------:|:---------------:|
+| TINYINT  |    0 to 255     |
+| SMALLINT | -32768 to 32767 |
+| INTEGER  |                 |
 
 Not whole numbers
 
