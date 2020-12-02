@@ -76,7 +76,7 @@ Whole numbers
 
 | Type     | Info            |
 |:--------:|:---------------:|
-| TINYINT  |    0 to 255     |
+| TINYINT  | -256 to 255     |
 | SMALLINT | -32768 to 32767 |
 | INTEGER  |                 |
 
@@ -183,10 +183,7 @@ ALTER TABLE players MODIFY SCHEMA Loeka; # Loeka becomes the new owner of the ta
 ```sql
 DROP TABLE players; # Deletes the table
 DROP TABLE players CASCADE; # Deletes the table and its related tables
- 
 ```
-
-
 
 ## DML: `Data Manipulation Language`
 
@@ -236,6 +233,4 @@ WHERE yearClosed >
        WHERE place = ‘Den Haag’)
 ```
 
-
-
-
+# 
