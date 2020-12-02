@@ -85,7 +85,7 @@
 
 - SSH (Secure Shell)
 
-- SNPM (Simple Network Management Protocol)
+- SNMP (Simple Network Management Protocol)
 
 ### Ports
 
