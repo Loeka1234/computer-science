@@ -76,7 +76,7 @@ Whole numbers
 
 | Type     | Info        |
 |:--------:|:-----------:|
-| TINYINT  | -256 to 255 |
+| TINYINT  |  0 to 255   |
 | SMALLINT | 3.2768      |
 | INTEGER  |             |
 
