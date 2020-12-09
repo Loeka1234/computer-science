@@ -1,6 +1,6 @@
 # Collections in C#
 
-<img title="" src="file:///C:/Users/loeka/Documents/01%20Github/computer-science/programming/C%23/collections.PNG" alt="collections" width="414" data-align="center">
+<img title="" src="collections.PNG" alt="collections" width="414" data-align="center">
 
 This markdown file contains some of the collections in C#.
 
@@ -65,5 +65,3 @@ This markdown file contains some of the collections in C#.
     - Dictionaries store key/value pairs of same type
     
     - Dictionaries need to specify the type of the key and value
-
-
