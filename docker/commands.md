@@ -71,3 +71,19 @@ This is a small cheatsheet for myself.
   - Executes shell (a Command Prompt)
   
   - Won't work for every container
+
+- `docker build <path or URL>`
+  
+  - Builds an image from a Dockerfile
+
+- `docker build -t Loeka1234/redis:latest <path or URL>`
+  
+  - Builds and tags an image from a Dockerfile
+  
+  - Naming conventions: 
+    
+    - **Loeka1234**: Docker ID
+    
+    - **redis**: Repo/Project name
+    
+    - **latest**: Version
