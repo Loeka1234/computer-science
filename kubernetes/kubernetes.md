@@ -10,7 +10,7 @@
 
 **Service**: Provides an easy-to-remember URL to access a running container
 
-### Kubernetes Objects
+### Objects
 
 ```yaml
 apiVersion: v1 # Version of the Kubernetes API you're using to create this object
@@ -24,5 +24,43 @@ spec: # Attributes for the object
 ```
 
 **containers** is an array.
+
+### Services
+
+![serivce](service.PNG)
+
+Services provide networking between pods.
+
+**Types** of services:
+
+- Cluster IP
+  
+  - Sets up an easy-to-remember URL to access a pod
+  
+  - Only exposes pods in the cluster
+
+- Node Port
+  
+  - Makes a pod accessible from outside the cluster
+  
+  - Usually only used for dev puposes
+  
+  - Gets a random 3xxxx port
+
+- Load balancer
+  
+  - Makes a pod accessible from outside the cluster
+  
+  - This is the right way to expose a pod to the outside world
+  
+  <img src="load-balancer.PNG" title="" alt="Load Balancer" width="206">
+
+- External Name
+  
+  - Redirects an in-cluster request to a CNAME url
+
+### Ingress or Ingress Controller
+
+A pod with a set of routing rules to distribute traffic to other services.
 
 
