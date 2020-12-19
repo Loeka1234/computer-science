@@ -14,6 +14,14 @@ This is a small cheatsheet for myself.
   
   - **command**: command to be executed inside container after start up
 
+- `docker run -p 8080:3000 <image name>`
+  
+  - Docker Run with Port Mapping
+  
+  - **8080**: Route incoming requests to this port on local host
+  
+  - **3000**: Port inside the container
+
 - `docker ps`
   
   - Lists all running containers
@@ -76,7 +84,7 @@ This is a small cheatsheet for myself.
   
   - Builds an image from a Dockerfile
 
-- `docker build -t Loeka1234/redis:latest <path or URL>`
+- `docker build -t loeka1234/redis:latest <path or URL>`
   
   - Builds and tags an image from a Dockerfile
   

@@ -1,5 +1,7 @@
 # Dockerfile
 
+Redis server example:
+
 ```dockerfile
 # Use an existing docker image as a base
 FROM alpine
@@ -11,4 +13,16 @@ RUN apk add --update redis
 CMD [ "redis-server" ]
 ```
 
+NodeJS example:
 
+```dockerfile
+FROM node
+
+WORKDIR /usr/app
+
+COPY ./package.json ./
+RUN yarn
+COPY ./ ./
+
+CMD ["yarn", "start"]
+```
