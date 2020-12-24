@@ -10,6 +10,10 @@ This is a small cheatsheet for myself.
   
   - Lists deployments
 
+- `kubectl get services -n ingress-nginx`
+  
+  - Gets services in the `ìngress-nginx` namespace
+
 - `kubectl exec -it [pod_name] [cmd]`
   
   - Executes the given command in a running pod

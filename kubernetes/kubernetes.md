@@ -63,4 +63,8 @@ Services provide networking between pods.
 
 A pod with a set of routing rules to distribute traffic to other services.
 
+**NextJS SSR** request to **ingress-nginx**
 
+- Use `http://SERVICENAME.NAMESPACE.svc.cluster.local`
+
+- **Note**: Include `Host` in your headers as ingress-nginx has rules specified for a specific domain
