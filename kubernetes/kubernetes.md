@@ -68,3 +68,22 @@ A pod with a set of routing rules to distribute traffic to other services.
 - Use `http://SERVICENAME.NAMESPACE.svc.cluster.local`
 
 - **Note**: Include `Host` in your headers as ingress-nginx has rules specified for a specific domain
+  
+  - NextJS has a `req` object which includes the headers from the request
+    
+    ```javascript
+    HomePage.getInitialProps = async ({ req }) => {
+    	if (typeof window === "undefined") // If request is made server side
+    		return await axios
+    			.get(
+    				"http://SERVICENAME.NAMESPACE.svc.cluster.local",
+    				{
+    					headers: req.headers,
+    				}
+    			)
+    			.then(res => res.data);
+        else // Put logic here for client side request
+    };
+    ```
+
+

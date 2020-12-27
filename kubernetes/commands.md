@@ -45,3 +45,7 @@ This is a small cheatsheet for myself.
 - `kubectl get secrets`
   
   - Gets all secrets
+
+- `kubectl port-forward [resource_name] 4222:4222`
+  
+  - Allows using resource name, such as a pod name, to select a matching pod to port forward to
