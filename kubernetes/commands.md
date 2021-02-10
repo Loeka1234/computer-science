@@ -10,6 +10,10 @@ This is a small cheatsheet for myself.
   
   - Lists deployments
 
+- `kubectl get services -n ingress-nginx`
+  
+  - Gets services in the `ìngress-nginx` namespace
+
 - `kubectl exec -it [pod_name] [cmd]`
   
   - Executes the given command in a running pod
@@ -41,3 +45,7 @@ This is a small cheatsheet for myself.
 - `kubectl get secrets`
   
   - Gets all secrets
+
+- `kubectl port-forward [resource_name] 4222:4222`
+  
+  - Allows using resource name, such as a pod name, to select a matching pod to port forward to
