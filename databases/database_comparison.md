@@ -4,9 +4,9 @@
 
 - Represents data as of JSON documents
 
--  You don't need to define the schema
+- You don't need to define the schema
 
--  Doesn't support JOIN
+- Doesn't support JOIN
 
 - JavaScript as query language
 
@@ -23,5 +23,3 @@
 - Uses the Structured Query Language (SQL)
 
 - Great choice if you have structured data and need a traditional relational database
-
-
