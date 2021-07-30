@@ -50,8 +50,10 @@
 | System administrator | Has full permission to customize or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment.                                                                         |
 | System Customizer    | Has full permission to customize the environment. However, can only view records for environment entities that they create.                                                                                                                |
 | Environment Maker    | Can create new resources that are associated with an environment, including apps, connections, custom APIs, gateways, and flows that are using Power Automate. However, does not have any privileges to access data within an environment. |
+| System Customizer    | Has full permission to customize the environment. However, users with this role can only view records for environment entities that they create.                                                                                           |
 | Basic User           | Can run an app within the environment and perform common tasks for the records that they own. Note: This only applies to non-custom entities.                                                                                              |
 | Delegate             | Allows code to run as another user or impersonate. Typically used with another security role to allow access to records.                                                                                                                   |
+| Support User         |                                                                                                                                                                                                                                            |
 
 You can create custom security roles.
 
