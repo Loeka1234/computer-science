@@ -9,4 +9,4 @@
 
 <mark>Opgelet</mark>: Enkel bestaansafhankelijkheid is niet voldoende om te spreken van een zwak entiteittype
 
-
+Historiek: zwak entiteittype dat altijd een datum-attribuut zal bevatten
